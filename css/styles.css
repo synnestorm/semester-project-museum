@@ -1,0 +1,264 @@
+/** These styles are for all the .html files**/
+/** Variables **/
+:root {
+  --purple-color-one: #9a88b5;
+  --purple-color-two: #696276;
+  --red-color-one: #fd5846;
+  --red-color-two: #9f2316;
+  --green-color-one: #4eb87e;
+  --green-color-two: #0b572d;
+  --yellow-color: #ecbc51;
+  --blue-color-one: #439db5;
+  --blue-color-two: #11586b;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --black-color-two: #3e3d3d;
+  --main-heading: "Lexend Deca";
+  --paragraph-text: "Montserrat";
+  --second-heading: "Outfit";
+  --third-heading: "Noto Sans Display";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1920px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background-color: #c4d5e5;
+}
+
+/** Header, Navbar and Ham-menu **/
+
+img.logo-top {
+  width: 100%;
+  max-width: 250px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+header {
+  background-color: var(--white-color);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.main-nav {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: var(--white-color);
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height ease-in-out;
+}
+
+.menu a {
+  display: block;
+  padding: 30px;
+  color: var(--white-color);
+  font-family: var(--paragraph-text);
+  font-size: 25px;
+  transition: 0.5s;
+}
+
+.menu a:hover {
+  background-color: var(--green-color-one);
+  color: var(--red-color-one);
+}
+
+.fa-bars {
+  cursor: pointer;
+  float: right;
+  padding: 50px 70px;
+  font-size: 30px;
+  color: var(--black-color);
+}
+
+.menu-checkbox {
+  display: none;
+}
+
+.menu-checkbox:checked ~ nav {
+  max-height: 100%;
+  background-color: var(--green-color-one);
+}
+
+body:has(.menu-checkbox:checked) {
+  overflow: hidden;
+}
+
+/** Footer **/
+
+footer {
+  background-color: var(--green-color-one);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--paragraph-text);
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+label.newsletter {
+  font-size: 20px;
+  padding-left: 65px;
+  font-weight: bold;
+  color: var(--white-color);
+  display: block;
+}
+
+h4 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--white-color);
+  font-family: var(--paragraph-text);
+  text-align: center;
+}
+
+p.footer {
+  position: relative;
+  left: 30px;
+  font-weight: bold;
+  color: var(--black-color-two);
+}
+
+span {
+  color: var(--white-color);
+  font-weight: bold;
+  display: block;
+}
+
+input {
+  padding: 15px 60px 15px 60px;
+  border-radius: 30px;
+  border: 1px transparent;
+  margin-top: 10px;
+  font-size: 15px;
+  margin-left: 50px;
+}
+
+button[type="submit"] {
+  padding: 15px 20px 15px 20px;
+  border-radius: 30px;
+  border: 1px transparent;
+  background-color: var(--red-color-one);
+  color: var(--white-color);
+  font-family: var(--paragraph-text);
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  right: 50px;
+  transition: 0.5s;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--red-color-two);
+}
+
+img.logo-bottom {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.info-museum {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+/** Media Queries **/
+
+@media only screen and (min-width: 1080px) {
+  .main-nav {
+    max-height: none;
+    top: 0;
+    position: relative;
+    float: right;
+    width: fit-content;
+  }
+  .menu li {
+    float: left;
+  }
+  .menu a {
+    color: var(--black-color);
+  }
+  .menu a:hover {
+    background-color: transparent;
+    color: var(--red-color-one);
+  }
+  .hamburger-icon {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  p.footer {
+    position: static;
+  }
+  .menu a {
+    margin-right: 30px;
+    margin-top: 25px;
+    padding: 20px 20px 20px 20px;
+    font-weight: 400;
+  }
+  .explore-btn {
+    background-color: var(--purple-color-one);
+    border-radius: 30px;
+    text-transform: uppercase;
+  }
+  .exhibitions-btn {
+    background-color: var(--red-color-one);
+    border-radius: 30px;
+    text-transform: uppercase;
+  }
+  .events-btn {
+    background-color: var(--green-color-one);
+    border-radius: 30px;
+    text-transform: uppercase;
+  }
+  .visit-btn {
+    background-color: var(--yellow-color);
+    border-radius: 30px;
+    text-transform: uppercase;
+  }
+  .fa-house {
+    font-size: 35px;
+  }
+  a.explore-btn:hover {
+    background-color: hsla(264, 23%, 62%, 0.5);
+    color: var(--black-color-two);
+  }
+  a.exhibitions-btn:hover {
+    background-color: hsla(6, 98%, 63%, 0.5);
+    color: var(--red-color-two);
+  }
+  a.events-btn:hover {
+    background-color: hsla(147, 43%, 51%, 0.5);
+    color: var(--green-color-two);
+  }
+  a.visit-btn:hover {
+    background-color: hsla(41, 80%, 62%, 0.5);
+    color: var(--black-color-two);
+  }
+}

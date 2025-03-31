@@ -1,0 +1,204 @@
+/** These are the styles for explore.html **/
+
+/** Explore Section with Links **/
+h1 {
+  font-family: var(--main-heading);
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  color: var(--black-color-two);
+  font-size: 40px;
+}
+
+.explore-menu li {
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
+
+ul.explore-menu {
+  padding: 0px;
+}
+
+.explore-menu a {
+  font-family: var(--paragraph-text);
+  font-size: 25px;
+  background-color: var(--blue-color-one);
+  padding: 20px 100px 20px 100px;
+  margin-top: 40px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px hsla(0, 0%, 50%, 0.5);
+  color: var(--white-color);
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.explore-menu a:hover {
+  box-shadow: 5px 5px 10px hsla(0, 0%, 50%, 0.5);
+  background-color: var(--blue-color-two);
+}
+
+.explore-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a.about {
+  padding: 20px 148px 20px 148px;
+}
+
+a.kids {
+  padding: 20px 164px 20px 164px;
+}
+
+a.teachers {
+  padding: 20px 125px 20px 125px;
+}
+
+a.research {
+  padding: 20px 98px 20px 98px;
+}
+
+a.get-in {
+  padding: 20px 98px 20px 98px;
+}
+
+a.contact {
+  padding: 20px 135px 20px 135px;
+}
+
+/** Container Section, Images and Text **/
+
+img.center {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+}
+
+img.explore-image {
+  display: none;
+}
+
+.item {
+  background-color: var(--purple-color-two);
+  width: auto;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+h2,
+h3 {
+  font-family: var(--second-heading);
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 105px;
+}
+
+p.explore-text {
+  font-family: var(--paragraph-text);
+  color: var(--white-color);
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: 500;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+}
+
+span.for-kids {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+p.get-involved-heading {
+  font-family: var(--third-heading);
+  font-size: 25px;
+  text-decoration: underline;
+  color: var(--white-color);
+  padding-left: 35px;
+}
+
+form.contact-form {
+  text-align: center;
+}
+
+label.contact {
+  display: block;
+}
+
+input.contact {
+  display: inline-block;
+  margin: 0px 0px 30px 0px;
+  text-align: center;
+}
+
+textarea {
+  display: block;
+  font-family: var(--paragraph-text);
+  text-align: center;
+  width: 400px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+button[type="submit"].contact {
+  position: relative;
+  left: 3px;
+  top: -15px;
+}
+
+.arrow-up {
+  width: 100px;
+  height: 100px;
+  background-color: var(--purple-color-two);
+  border-radius: 50%;
+}
+
+.fa-arrow-up {
+  color: var(--white-color);
+  padding-left: 33px;
+  padding-top: 25px;
+  font-size: 50px;
+}
+
+/** Media Queries **/
+
+@media only screen and (min-width: 1080px) {
+  .item {
+    width: 1000px;
+    height: auto;
+    border-radius: 40px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  img.explore-image {
+    display: block;
+    margin: auto;
+    border-radius: 40px;
+    opacity: 0.7;
+  }
+  .explore-section {
+    position: relative;
+    top: -750px;
+    left: 350px;
+  }
+  h4 {
+    position: relative;
+    right: 30px;
+  }
+}

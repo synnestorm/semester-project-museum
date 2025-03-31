@@ -1,0 +1,106 @@
+/** These are the styles for exhibitions.html **/
+
+h1 {
+  font-family: var(--main-heading);
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  color: var(--red-color-two);
+  font-size: 40px;
+}
+
+img.expo-image {
+  width: 100%;
+  display: block;
+  margin: auto;
+  border-top: 10px solid var(--red-color-two);
+}
+
+.expo-bg {
+  background-color: hsla(0, 0%, 0%, 0.7);
+  border-bottom: 10px solid var(--red-color-two);
+}
+
+h2,
+p.expo-text,
+h3 {
+  color: var(--white-color);
+}
+
+h2,
+h3 {
+  font-family: var(--second-heading);
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
+p.expo-text {
+  font-family: var(--paragraph-text);
+  line-height: 1.5;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.cosmology-section,
+.evolution-section,
+.bio-med-section,
+.robotics-ai-section,
+.ecology-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+/** Media Queries **/
+
+@media only screen and (min-width: 640px) {
+  .expo-bg {
+    width: 640px;
+  }
+  img.expo-image {
+    max-width: 640px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .cosmology-section,
+  .evolution-section,
+  .bio-med-section,
+  .robotics-ai-section,
+  .ecology-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .expo-bg {
+    border-top: 10px solid var(--red-color-two);
+  }
+  img.expo-image {
+    border-bottom: 10px solid var(--red-color-two);
+  }
+  .expo-cosmo-size {
+    height: 366px;
+  }
+  .expo-evo-size {
+    height: 427px;
+  }
+  .expo-bio-size {
+    height: 395.1px;
+  }
+  .expo-ai-size {
+    height: 427px;
+  }
+  .expo-eco-size {
+    height: 400px;
+  }
+  p.relative {
+    position: relative;
+    top: -15px;
+  }
+  h4 {
+    position: relative;
+    right: 60px;
+  }
+}

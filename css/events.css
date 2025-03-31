@@ -1,0 +1,109 @@
+/** These styles are for events.html **/
+
+h1 {
+  font-family: var(--main-heading);
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  color: var(--green-color-two);
+  font-size: 40px;
+}
+
+img.events-image {
+  width: 100%;
+  width: 450px;
+  display: block;
+  margin: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+h2.events-heading {
+  font-family: var(--second-heading);
+  text-align: center;
+  color: var(--black-color);
+  text-decoration: underline;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+p {
+  font-family: var(--paragraph-text);
+  text-align: left;
+  padding-left: 20px;
+  line-height: 1.7;
+  font-weight: 600;
+}
+
+section.special-events {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.aeronautics,
+.night-museum,
+.energetica {
+  background-color: hsla(147, 43%, 51%, 0.8);
+  margin: auto;
+  width: 450px;
+  height: 600px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px hsla(0, 0%, 50%, 0.5);
+}
+
+h3.footer {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--white-color);
+  font-family: var(--paragraph-text);
+  text-align: center;
+}
+
+p.footer {
+  position: relative;
+  top: -20px;
+  left: 40px;
+  font-weight: bold;
+  color: var(--black-color-two);
+}
+
+/** Media Queries **/
+
+@media only screen and (min-width: 1200px) {
+  img.events-image {
+    display: inline;
+    border-radius: 30px;
+  }
+  .aeronautics,
+  .night-museum,
+  .energetica {
+    width: 1300px;
+    height: 300px;
+    border-radius: 30px;
+  }
+  section.special-events {
+    gap: 100px;
+  }
+  h2,
+  p.events {
+    position: relative;
+    top: -300px;
+    left: 200px;
+    padding-right: 250px;
+    padding-left: 300px;
+  }
+  p.events-left,
+  h2.events-h-left {
+    position: relative;
+    top: 40px;
+    left: -100px;
+    padding-left: 200px;
+  }
+  img.image-right {
+    float: right;
+  }
+}
