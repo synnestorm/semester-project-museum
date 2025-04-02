@@ -143,7 +143,7 @@ textarea {
   display: block;
   font-family: var(--paragraph-text);
   text-align: center;
-  width: 400px;
+  width: 350px;
   border-radius: 20px;
   margin: auto;
 }
