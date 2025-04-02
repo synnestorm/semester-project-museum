@@ -111,9 +111,9 @@ footer {
   padding-top: 50px;
 }
 
-label.newsletter {
+p.newsletter {
+  text-align: center;
   font-size: 20px;
-  padding-left: 65px;
   font-weight: bold;
   color: var(--white-color);
   display: block;
@@ -147,7 +147,8 @@ input {
   border: 1px transparent;
   margin-top: 10px;
   font-size: 15px;
-  margin-left: 50px;
+  margin: auto;
+  display: block;
 }
 
 button[type="submit"] {
@@ -161,9 +162,9 @@ button[type="submit"] {
   font-size: 15px;
   font-weight: bold;
   cursor: pointer;
-  position: relative;
-  right: 50px;
   transition: 0.5s;
+  margin-left: 115px;
+  margin-top: 10px;
 }
 
 button[type="submit"]:hover {
