@@ -77,6 +77,7 @@ p.footer {
   img.events-image {
     display: inline;
     border-radius: 30px;
+    width: 450px;
   }
   .aeronautics,
   .night-museum,
