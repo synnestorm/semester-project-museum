@@ -11,7 +11,7 @@ h1 {
 
 img.events-image {
   width: 100%;
-  width: 450px;
+  width: 350px;
   display: block;
   margin: auto;
   border-top-left-radius: 15px;
@@ -48,7 +48,7 @@ section.special-events {
 .energetica {
   background-color: hsla(147, 43%, 51%, 0.8);
   margin: auto;
-  width: 450px;
+  width: 350px;
   height: 600px;
   border-radius: 15px;
   box-shadow: 10px 10px 10px hsla(0, 0%, 50%, 0.5);
