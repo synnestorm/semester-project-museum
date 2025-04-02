@@ -159,6 +159,8 @@ button[type="submit"].contact {
   height: 100px;
   background-color: var(--purple-color-two);
   border-radius: 50%;
+  margin: auto;
+  margin-top: 20px;
 }
 
 .fa-arrow-up {
