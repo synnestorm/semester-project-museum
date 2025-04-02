@@ -49,7 +49,6 @@ section.popular-exhibitions {
 
 img.image-popular-expo {
   width: 100%;
-  max-width: 400px;
   margin: auto;
   display: block;
   border-top-left-radius: 5px;
@@ -73,7 +72,7 @@ p.popular-text {
 
 .cosmo-expo {
   background-color: var(--purple-color-one);
-  width: 400px;
+  width: 360px;
   height: 350px;
   border-radius: 5px;
   box-shadow: 10px 10px 10px hsla(0, 0%, 50%, 0.5);
@@ -81,7 +80,7 @@ p.popular-text {
 
 .bio-med-expo {
   background-color: var(--red-color-one);
-  width: 400px;
+  width: 360px;
   height: 350px;
   border-radius: 5px;
   box-shadow: 10px 10px 10px hsla(0, 0%, 50%, 0.5);
@@ -89,7 +88,7 @@ p.popular-text {
 
 .eco-expo {
   background-color: var(--green-color-one);
-  width: 400px;
+  width: 360px;
   height: 350px;
   border-radius: 5px;
   box-shadow: 10px 10px 10px hsla(0, 0%, 50%, 0.5);
