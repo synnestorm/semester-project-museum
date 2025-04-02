@@ -150,8 +150,8 @@ textarea {
 
 button[type="submit"].contact {
   position: relative;
-  left: 3px;
-  top: -15px;
+  right: 50px;
+  top: 10px;
 }
 
 .arrow-up {
