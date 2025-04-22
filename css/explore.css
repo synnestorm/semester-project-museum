@@ -280,4 +280,18 @@ button[type="submit"].contact {
   img.kids-image-two {
     grid-area: image-two;
   }
+
+  /** Flexbox for Teachers Section **/
+
+  .item-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+  }
+  .teacher-text {
+    width: 600px;
+    position: relative;
+    top: 60px;
+  }
 }
