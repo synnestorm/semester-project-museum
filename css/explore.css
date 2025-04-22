@@ -305,4 +305,16 @@ button[type="submit"].contact {
     font-weight: bold;
     font-size: 25px;
   }
+
+  /** Get Involved and Contact Section **/
+
+  p.get-involved-heading {
+    margin-left: 80px;
+  }
+  p.involved-text {
+    margin-left: 80px;
+  }
+  p.contact-text {
+    text-align: center;
+  }
 }
