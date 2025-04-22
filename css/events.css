@@ -27,7 +27,7 @@ h2.events-heading {
   cursor: pointer;
 }
 
-p {
+p.events {
   font-family: var(--paragraph-text);
   text-align: left;
   padding-left: 20px;
@@ -52,14 +52,6 @@ section.special-events {
   height: 600px;
   border-radius: 15px;
   box-shadow: 10px 10px 10px hsla(0, 0%, 50%, 0.5);
-}
-
-p.footer {
-  position: relative;
-  top: -20px;
-  left: 40px;
-  font-weight: bold;
-  color: var(--black-color-two);
 }
 
 /** Media Queries **/
