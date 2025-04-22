@@ -36,6 +36,7 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   font-size: 30px;
+  padding-bottom: 20px;
 }
 
 section.popular-exhibitions {
@@ -159,7 +160,7 @@ p.info-text {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 110px;
     margin-bottom: 70px;
   }
   p.intro {
@@ -202,11 +203,12 @@ p.info-text {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
     margin-bottom: 150px;
   }
   .info-image {
-    max-width: 50em;
+    max-width: 40em;
     border-radius: 15px;
     box-shadow: 10px 10px 10px hsla(0, 0%, 50%, 0.5);
   }
