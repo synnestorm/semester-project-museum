@@ -175,7 +175,7 @@ button[type="submit"].contact {
   .item {
     width: 1000px;
     height: auto;
-    border-radius: 40px;
+    border-radius: 4px;
   }
   .container {
     display: flex;
@@ -194,7 +194,7 @@ button[type="submit"].contact {
   img.explore-image {
     display: block;
     margin: auto;
-    border-radius: 40px;
+    border-radius: 10px;
     opacity: 0.6;
   }
   .explore-section {
@@ -207,7 +207,7 @@ button[type="submit"].contact {
   }
   section.container {
     position: relative;
-    bottom: 250px;
+    bottom: 450px;
   }
 }
 
