@@ -61,6 +61,7 @@ h3 {
   text-decoration: underline;
   letter-spacing: 1px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 p.popular-text {
@@ -70,28 +71,25 @@ p.popular-text {
   top: -10px;
 }
 
-.cosmo-expo {
-  background-color: var(--purple-color-one);
+.cosmo-expo,
+.bio-med-expo,
+.eco-expo {
   width: 360px;
   height: 350px;
   border-radius: 5px;
   box-shadow: 10px 10px 10px hsla(0, 0%, 50%, 0.5);
+}
+
+.cosmo-expo {
+  background-color: var(--purple-color-one);
 }
 
 .bio-med-expo {
   background-color: var(--red-color-one);
-  width: 360px;
-  height: 350px;
-  border-radius: 5px;
-  box-shadow: 10px 10px 10px hsla(0, 0%, 50%, 0.5);
 }
 
 .eco-expo {
   background-color: var(--green-color-one);
-  width: 360px;
-  height: 350px;
-  border-radius: 5px;
-  box-shadow: 10px 10px 10px hsla(0, 0%, 50%, 0.5);
 }
 
 /** CTA Button **/
