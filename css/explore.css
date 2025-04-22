@@ -114,7 +114,7 @@ p.explore-text {
 span.for-kids {
   display: block;
   padding-bottom: 10px;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 p.get-involved-heading {
@@ -188,6 +188,10 @@ button[type="submit"].contact {
 }
 
 @media only screen and (min-width: 1200px) {
+  a.explore-btn {
+    background-color: hsla(264, 23%, 62%, 0.5);
+    color: var(--black-color-two);
+  }
   img.explore-image {
     display: block;
     margin: auto;
@@ -199,12 +203,81 @@ button[type="submit"].contact {
     top: -750px;
     left: 350px;
   }
-  h4 {
-    position: relative;
-    right: 30px;
+  .item {
+    width: 1200px;
   }
-  a.explore-btn {
-    background-color: hsla(264, 23%, 62%, 0.5);
-    color: var(--black-color-two);
+}
+
+@media only screen and (min-width: 1400px) {
+  .item {
+    width: 1400px;
+  }
+
+  /** CSS Grid on About Us Section and For Kids Section **/
+
+  .item-one {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 20px;
+    grid-template-areas:
+      "heading heading heading"
+      "one two three"
+      "four end end";
+  }
+  h2 {
+    grid-area: heading;
+  }
+  p.about-text-one {
+    grid-area: one;
+  }
+  img.inside-csm {
+    grid-area: two;
+  }
+  img.outside-csm {
+    grid-area: four;
+  }
+  p.about-text-three {
+    grid-area: three;
+  }
+  p.about-text-four {
+    grid-area: end;
+  }
+
+  .item-two {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 10px;
+    grid-template-areas:
+      "heading heading heading"
+      "one one image-one"
+      "two two image-one"
+      "image-two three three"
+      "image-two four four";
+  }
+  p.kids-text-one {
+    grid-area: one;
+  }
+  p.kids-text-two {
+    grid-area: two;
+    position: relative;
+    bottom: 50px;
+  }
+  p.kids-text-three {
+    grid-area: three;
+    position: relative;
+    top: 50px;
+  }
+  p.kids-text-four {
+    grid-area: four;
+  }
+  img.kids-image-one {
+    grid-area: image-one;
+  }
+  img.kids-image-two {
+    grid-area: image-two;
   }
 }

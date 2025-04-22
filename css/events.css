@@ -57,6 +57,10 @@ section.special-events {
 /** Media Queries **/
 
 @media only screen and (min-width: 1200px) {
+  a.events-btn {
+    background-color: hsla(147, 43%, 51%, 0.5);
+    color: var(--green-color-two);
+  }
   img.events-image {
     display: inline;
     border-radius: 30px;
@@ -89,9 +93,5 @@ section.special-events {
   }
   img.image-right {
     float: right;
-  }
-  a.events-btn {
-    background-color: hsla(147, 43%, 51%, 0.5);
-    color: var(--green-color-two);
   }
 }
