@@ -53,6 +53,8 @@ span.closed {
   font-weight: 600;
   font-family: var(--paragraph-text);
   color: var(--red-color-two);
+  position: relative;
+  top: 10px;
 }
 
 table {
