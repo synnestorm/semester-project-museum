@@ -203,7 +203,7 @@ button[type="submit"].contact {
     position: relative;
     right: 30px;
   }
-  a.explore-btn:hover {
+  a.explore-btn {
     background-color: hsla(264, 23%, 62%, 0.5);
     color: var(--black-color-two);
   }
