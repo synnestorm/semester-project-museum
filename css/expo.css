@@ -81,19 +81,19 @@ p.expo-text {
     border-bottom: 10px solid var(--red-color-two);
   }
   .expo-cosmo-size {
-    height: 366px;
+    height: 386px;
   }
   .expo-evo-size {
-    height: 427px;
+    height: 447px;
   }
   .expo-bio-size {
-    height: 395.1px;
+    height: 415.1px;
   }
   .expo-ai-size {
-    height: 427px;
+    height: 447px;
   }
   .expo-eco-size {
-    height: 400px;
+    height: 420px;
   }
   p.relative {
     position: relative;
