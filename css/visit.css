@@ -79,4 +79,8 @@ td {
     position: relative;
     right: 60px;
   }
+  a.visit-btn {
+    background-color: hsla(41, 80%, 62%, 0.5);
+    color: var(--black-color-two);
+  }
 }

@@ -90,4 +90,8 @@ section.special-events {
   img.image-right {
     float: right;
   }
+  a.events-btn {
+    background-color: hsla(147, 43%, 51%, 0.5);
+    color: var(--green-color-two);
+  }
 }

@@ -103,4 +103,8 @@ p.expo-text {
     position: relative;
     right: 60px;
   }
+  a.exhibitions-btn:hover {
+    background-color: hsla(6, 98%, 63%, 0.5);
+    color: var(--red-color-two);
+  }
 }
