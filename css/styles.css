@@ -20,12 +20,15 @@
   --third-heading: "Noto Sans Display";
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
   max-width: 1920px;
   overflow-x: hidden;
-  box-sizing: border-box;
   background-color: #c4d5e5;
 }
 
@@ -149,7 +152,7 @@ span {
 input {
   padding: 15px 60px 15px 60px;
   border-radius: 30px;
-  border: 1px transparent;
+  border: transparent;
   margin-top: 10px;
   font-size: 15px;
   margin: auto;
@@ -227,26 +230,20 @@ img.logo-bottom {
     margin-top: 25px;
     padding: 20px 20px 20px 20px;
     font-weight: 400;
+    border-radius: 30px;
+    text-transform: uppercase;
   }
   .explore-btn {
     background-color: var(--purple-color-one);
-    border-radius: 30px;
-    text-transform: uppercase;
   }
   .exhibitions-btn {
     background-color: var(--red-color-one);
-    border-radius: 30px;
-    text-transform: uppercase;
   }
   .events-btn {
     background-color: var(--green-color-one);
-    border-radius: 30px;
-    text-transform: uppercase;
   }
   .visit-btn {
     background-color: var(--yellow-color);
-    border-radius: 30px;
-    text-transform: uppercase;
   }
   .fa-house {
     font-size: 35px;
