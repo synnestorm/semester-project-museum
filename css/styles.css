@@ -7,6 +7,7 @@
   --red-color-two: #9f2316;
   --green-color-one: #4eb87e;
   --green-color-two: #0b572d;
+  --green-color-three: #225e3d;
   --yellow-color: #ecbc51;
   --blue-color-one: #439db5;
   --blue-color-two: #11586b;
@@ -72,7 +73,7 @@ ul {
 }
 
 .menu a:hover {
-  background-color: var(--green-color-one);
+  background-color: var(--green-color-three);
   color: var(--red-color-one);
 }
 
@@ -90,7 +91,7 @@ ul {
 
 .menu-checkbox:checked ~ nav {
   max-height: 100%;
-  background-color: var(--green-color-one);
+  background-color: var(--green-color-three);
 }
 
 body:has(.menu-checkbox:checked) {
