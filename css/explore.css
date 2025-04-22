@@ -90,8 +90,7 @@ img.explore-image {
   padding-bottom: 100px;
 }
 
-h2,
-h3 {
+h2 {
   font-family: var(--second-heading);
   color: var(--white-color);
   text-transform: uppercase;
