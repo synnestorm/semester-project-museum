@@ -128,6 +128,19 @@ form.contact-form {
   text-align: center;
 }
 
+ul.explore-list {
+  list-style: square;
+  color: var(--white-color);
+  font-family: var(--paragraph-text, Arial), sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 40px;
+}
+div.list {
+  text-align: center;
+}
+
 label.contact {
   display: block;
 }
@@ -316,8 +329,5 @@ button[type="submit"].contact {
   }
   p.involved-text {
     margin-left: 80px;
-  }
-  p.contact-text {
-    text-align: center;
   }
 }
