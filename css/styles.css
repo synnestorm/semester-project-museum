@@ -1,6 +1,7 @@
 /** These styles are for all the .html files**/
 /** Variables **/
 :root {
+  /** Colors **/
   --purple-color-one: #9a88b5;
   --purple-color-two: #696276;
   --red-color-one: #fd5846;
@@ -14,6 +15,7 @@
   --white-color: #ffffff;
   --black-color: #000000;
   --black-color-two: #3e3d3d;
+  /** Fonts **/
   --main-heading: "Lexend Deca";
   --paragraph-text: "Montserrat";
   --second-heading: "Outfit";
