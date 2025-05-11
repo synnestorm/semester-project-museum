@@ -218,7 +218,7 @@ button[type="submit"].contact {
   .item {
     width: 1200px;
   }
-  section.container {
+  div.container {
     position: relative;
     bottom: 450px;
   }
