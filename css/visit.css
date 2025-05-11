@@ -1,7 +1,7 @@
 /** These are the styles for visit.html **/
 
 h1 {
-  font-family: var(--main-heading);
+  font-family: var(--main-heading, Verdana), sans-serif;
   text-transform: uppercase;
   text-align: center;
   margin-top: 50px;
@@ -17,7 +17,7 @@ section {
 
 h2,
 h3 {
-  font-family: var(--second-heading);
+  font-family: var(--second-heading, Verdana), sans-serif;
   color: var(--black-color-two);
   font-size: 35px;
   margin-left: 40px;
@@ -27,7 +27,7 @@ p.visit-text {
   color: var(--black-color-two);
   font-size: 20px;
   font-weight: 500;
-  font-family: var(--paragraph-text);
+  font-family: var(--paragraph-text, Arial), sans-serif;
   margin-left: 40px;
   margin-right: 20px;
   line-height: 1.5;
@@ -42,7 +42,7 @@ span.address {
 p.entrance {
   font-size: 20px;
   font-weight: 600;
-  font-family: var(--paragraph-text);
+  font-family: var(--paragraph-text, Arial), sans-serif;
   margin-left: 40px;
   margin-right: 20px;
   color: var(--green-color-two);
@@ -51,14 +51,14 @@ p.entrance {
 span.closed {
   font-size: 20px;
   font-weight: 600;
-  font-family: var(--paragraph-text);
+  font-family: var(--paragraph-text, Arial), sans-serif;
   color: var(--red-color-two);
   position: relative;
   top: 10px;
 }
 
 table {
-  font-family: var(--paragraph-text);
+  font-family: var(--paragraph-text, Arial), sans-serif;
   font-size: 20px;
   margin-left: 40px;
 }
