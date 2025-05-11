@@ -1,7 +1,7 @@
 /** These styles are for events.html **/
 
 h1 {
-  font-family: var(--main-heading);
+  font-family: var(--main-heading, Verdana), sans-serif;
   text-transform: uppercase;
   text-align: center;
   margin-top: 50px;
@@ -19,7 +19,7 @@ img.events-image {
 }
 
 h2.events-heading {
-  font-family: var(--second-heading);
+  font-family: var(--second-heading, Verdana), sans-serif;
   text-align: center;
   color: var(--black-color);
   text-decoration: underline;
@@ -28,7 +28,7 @@ h2.events-heading {
 }
 
 p.events {
-  font-family: var(--paragraph-text);
+  font-family: var(--paragraph-text, Arial), sans-serif;
   text-align: left;
   padding-left: 20px;
   line-height: 1.7;
